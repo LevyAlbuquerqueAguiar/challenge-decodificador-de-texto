@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --gray-300: #868e96;
+    --dark-blue-400: #072B61;
+}
+
+body {
+    background: var(--gray-300);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.cabecalho h1 {
+    color: var(--dark-blue-400);
+}
+
+.cabecalho img {
+    max-width: 100px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container-imput {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.container-imput.imput {
+    width: 400px;
+    height: 330px;
+}
+
+#imput-texto {
+    width: 345px;
+    height: 330px;
+    font-size: 40px;
+    color: var(--dark-blue-400);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--dark-blue-400);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+    background: white;
+}
+
+#output h2 {
+    text-align: center;
+    font-size: 20px;
+    color: var(--dark-blue-400);
+}
+
+#output span {
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img  {
+    max-width: auto;
+    width: auto;
+    height: auto;
+    margin-top: 5%;
+}
+
+.container-btn button {
+    border: 2px solid var(--dark-blue-400);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--dark-blue-400);
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.container-btn button:hover {
+    border: 2px solid var(--gray-300);
+    transition: 0.5s all;
+}
+
+.copiar {
+    border: 2px solid var(--dark-blue-400);
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--dark-blue-400);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.copiar:hover{
+    border: 2px solid white;
+    transition: 0.5s all;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background: var(--dark-blue-400);
+    color: var(--gray-300);
+}
+
+.rodape h3 {
+    font-size: 18px;
+}
